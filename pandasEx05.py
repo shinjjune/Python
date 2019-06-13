@@ -5,7 +5,7 @@ import pandas as pd
 
 print("----- 행 인덱스가 없는 csv 파일 읽기 ------")
 csv_data1=pd.read_csv('sample1.csv', sep=",", dtype='unicode')
-# 행 인덱스는 지정하지 앟ㄴ으면 자동으로 부여 0~정수로
+# 행 인덱스는 지정하지 으면 자동으로 부여 0~정수로
 print(csv_data1)
 # ---------------------------------------------------------
 csv_data1=pd.read_csv('sample1.csv',index_col='c1')
