@@ -2,7 +2,7 @@
 Python/numpy/pandas/beautifulsoup/......
 
 
-#### * numpy
+![image](https://user-images.githubusercontent.com/47058441/64070978-89ce0e00-ccaa-11e9-921f-c729aafc2b60.png)
 
 Numpy는 C언어로 구현된 파이썬 라이브러리로써, 고성능의 수치계산을 위해 제작되었습니다. Numerical Python의 줄임말이기도 한 Numpy는 벡터 및 행렬 연산에 있어서 매우 편리한 기능을 제공합니다.
 
