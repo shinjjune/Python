@@ -2,7 +2,7 @@
 Python/numpy/pandas/beautifulsoup/......
 
 
-* numpy
+#### * numpy
 
 Numpy는 C언어로 구현된 파이썬 라이브러리로써, 고성능의 수치계산을 위해 제작되었습니다. Numerical Python의 줄임말이기도 한 Numpy는 벡터 및 행렬 연산에 있어서 매우 편리한 기능을 제공합니다.
 
@@ -22,3 +22,14 @@ import numpy as np
 
 출처: https://doorbw.tistory.com/171 [Tigercow.Door]
 
+
+#### * pandas
+
+Pandas는 파이썬에서 사용하는 데이터분석 라이브러리로, 행과 열로 이루어진 데이터 객체를 만들어 다룰 수 있게 되며 보다 안정적으로 대용량의 데이터들을 처리하는데 매우 편리한 도구 입니다.
+
+먼저 pandas를 사용하기 위해서는 pandas를 설치한 이후에 아래와 같이 import를 해야 합니다.
+```
+import pandas as pd
+```
+
+출처: https://doorbw.tistory.com/172 [Tigercow.Door]
