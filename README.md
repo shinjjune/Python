@@ -34,3 +34,14 @@ import pandas as pd
 ```
 
 출처: https://doorbw.tistory.com/172 [Tigercow.Door]
+
+
+
+![image](https://user-images.githubusercontent.com/47058441/64071004-2690ab80-ccab-11e9-9e26-fb138f6a8184.png)
+
+Beautiful Soup는 HTML과 XML 파일로부터 데이터를 가져오기 위한 라이브러리 입니다. Beautiful Soup를 설치하기 위해 아래 명령어를 입력합니다.
+```
+pip install bs4
+```
+
+
