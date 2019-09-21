@@ -55,3 +55,24 @@ game/
     run.py
     test.py
 ```
+
+#### 패키지 안의 함수 실행하기 
+
+1. echo 모듈을 import 하여 실행하는 방법
+```
+>>>import game.sound.echo
+>>>game.sound.echo.echo_test()
+echo
+```
+2. echo 모듈이 있는 디렉터림까지를 from...import 하여 실행하는 방법
+```
+>>>from game.sound import echo
+>>>echo.echo_test()
+echo
+```
+3. echo 모듈의 echo_test 함수를 직접 import 하여 실행하는 방법
+```
+>>>from game.sound.echo import echo_test
+>>>echo_test()
+echo
+```
