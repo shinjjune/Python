@@ -80,4 +80,13 @@ echo
 * __init__.py 의 용도
   해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.--> "패키지로 인식"
   만약 디렉터리에__init__.py 파일이 없으면 importError가 발생하게된다.
+* __all__ 의 용도
+  >>>from game.sound import *
+  >>>echo.echo_test()
+  ERRoR
+  
+  >>>__all__['echo']
+  >>>from game.sound import *
+  >>>echo.echo_test()
+  echo
 ```
