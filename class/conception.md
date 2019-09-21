@@ -33,3 +33,25 @@ import 모듈이름
 ```
 from 모듈이름 import 모듈함수
 ```
+
+# package
+
+패키지는 도트(.)를 이용하여 파이썬 모듈을 계층적(디렉터리 구조)으로 관리할 수 있게 해준다.
+예를 들어 모듈명이 A.B인 경우 A는 패키지명이 되고 B는 A패키지의 B모듈이 된다.
+
+```
+game/
+  __init__.py
+  sound/
+    __init__.py
+    echo.py
+    wav.py
+  graphic/
+    __init__.py
+    screen.py
+    render.py
+  play/
+    __init__.py
+    run.py
+    test.py
+```
