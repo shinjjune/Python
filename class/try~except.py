@@ -24,3 +24,24 @@ try:
   # 무언가를 수행한다.
 finally:
   f.close()
+
+# 오류 회피하기
+try:
+  f=open("나없는파일",'r')
+except FileNotFoundError:
+  pass
+
+# 오류 일부러 발생시키기, raise
+
+class Bird:
+    def fly(self):
+        raise NotImplementedError
+
+class Eagle(Bird):
+    def fly(self):
+        print("very fast")
+
+eagle = Eagle()
+eagle.fly()
+
+
