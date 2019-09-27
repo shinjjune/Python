@@ -64,4 +64,19 @@ re.compile을 이용하여 정규 표현식(위 예에서는 ab*)을 컴파일�
 * findall()  : 정규식과 매치되는 모든 문자열(substring)을 리스트로 리턴한다.
 * finditer() : 정규식과 매치되는 모든 문자열(substring)을 반복 가능한 객체로 리턴한다.
 
+```
+>import re
+>p=re.compile('[a-z]+')
+```
+##### match
+```
+>m=p.match("python")
+>print(m)
+<re.Match object; span=(0, 6), match='python'>
+
+>m=p.match("3 python")
+>print(m)
+None
+```
+
 
