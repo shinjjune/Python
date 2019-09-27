@@ -77,6 +77,18 @@ re.compile을 이용하여 정규 표현식(위 예에서는 ab*)을 컴파일�
 >m=p.match("3 python")
 >print(m)
 None
+
+# 종합
+import re
+p=re.compile('[a-z]+')
+m=p.match("python")
+if m:
+    print('Match Found: ', m.group())
+else:
+    print('No match')
+
 ```
+
+
 
 
