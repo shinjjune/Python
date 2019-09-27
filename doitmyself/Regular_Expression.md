@@ -119,10 +119,28 @@ else:
 ```
 
 
+#### 컴파일 옵션
+* DOTALL(s)     : 줄바꿈 문자를 포함하여 모든 문자와 매치할 수 있도록 한다.
+* IGNORECASE(I) : 대, 소문자에 관계 없이 매치할 수 있도록 한다.
+* MULTILINE(M)  : 여러 줄과 매치할 수 있도록 한다.(^,$ 메타 문자의 사용과 관계가 있는 옵션이다)
+* VERBOSE(X)    : verbose 모드를 사용할 수 있도록 한다.(정규식을 보기 편하게 만들 수도 있고 주석 등을 사용할 수도 있다.)
 
+##### DOTALL,S
+```
+>import re
+>p=re.compile('a.b')
+>m=p.match('a\nb')
+>print(m)
+None
 
+import re
+p=re.compile('a.b',re.DOTALL)
+m=p.match('a\nb')
+print(m)
+<re.Match object; span=(0, 3), match='a\nb'>
+```
 
-
+##### IGNORECASE, I
 
 
 
