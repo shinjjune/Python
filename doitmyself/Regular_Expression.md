@@ -88,6 +88,43 @@ else:
     print('No match')
 
 ```
+##### search
+
+```
+>m= p.search("python")
+>print(m)
+<re.Match object; span=(0, 6), match='python'>
+
+>m= p.search("3 python")
+>print(m)
+<re.Match object; span=(2, 8), match='python'>
+```
+##### findall
+```
+>result=p.findall("life is too short")
+>print(result)
+['life', 'is', 'too', 'short']
+```
+##### finditer
+```
+>result=p.finditer("life is too short")
+>print(result)
+<callable_iterator object at 0x0000000002797EC8>
+
+>for r in result: print(r)
+<re.Match object; span=(0, 4), match='life'>
+<re.Match object; span=(5, 7), match='is'>
+<re.Match object; span=(8, 11), match='too'>
+<re.Match object; span=(12, 17), match='short'>
+```
+
+
+
+
+
+
+
+
 
 
 
