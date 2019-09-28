@@ -42,3 +42,27 @@ print(d)
 # 문자열 관련 함수들
 ac="account"
 print(ac.count('c'))
+print(ac.find('t'))
+print(ac.find('z'))
+
+x=","
+print(x.join('abcd'))
+
+y="       cupbottle  "
+print(y.upper())
+z="TRASH"
+print(z.lower())
+
+print(y.lstrip())
+print(y.rstrip())
+print(y.strip())
+
+
+t="ozil is my best player"
+print(t)
+print(t.replace("ozil", "lacazette"))
+
+print(t.split())
+print()
+fo="i eat {0} pizza".format("five")
+print(fo)
