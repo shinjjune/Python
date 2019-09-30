@@ -26,9 +26,25 @@ print(dic['phone'])
 print(dic.keys())
 for k in dic.keys():
     print(k)
-
+# Key 리스트 만들기(keys)
 print(list(dic.keys()))
 
+# Value 리스트 만들기(values)
 print(dic.values())
 
+# Key, Value 쌍 얻기
+print(dic.items())
+
+# Key: Value 쌍 모두 지우기(clear)
+print(dic.clear())
+print(dic)
+
+# Key로 Value얻기(get)
+dic = {'name':'shin','phone':'01012348808','birth':'0312'}
+print(dic.get('name'))
+# key값으로 default값 얻기
+print(dic.get('foo','bark'))
+
+# 해당 Key가 딕셔너리 안에 있는지 조사하기(in)
+print('name' in dic)
 
