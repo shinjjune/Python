@@ -1,7 +1,7 @@
 # 파이썬연습 -딕셔너리
 
 # {Key1:Value1,Key2:Value2,...}
-dic = {'name':'pey','phone':'01012348808','birth':'0312'}
+# dic = {'name':'shin','phone':'01012348808','birth':'0312'}
 
 a= { 1: 'hi'}
 
@@ -18,12 +18,17 @@ del a[1]
 
 print(a)
 
+grade ={'shin': 30, 'june': 24}
+print(grade['shin'])
 
+dic = {'name':'shin','phone':'01012348808','birth':'0312'}
+print(dic['phone'])
+print(dic.keys())
+for k in dic.keys():
+    print(k)
 
+print(list(dic.keys()))
 
-
-
-
-
+print(dic.values())
 
 
